@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7103C3EC1992E72900B857C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103C3EB1992E72900B857C0 /* AppDelegate.swift */; };
 		7103C3EE1992E72900B857C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103C3ED1992E72900B857C0 /* ViewController.swift */; };
-		7103C3F11992E72900B857C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7103C3EF1992E72900B857C0 /* Main.storyboard */; };
 		7103C3F31992E72900B857C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7103C3F21992E72900B857C0 /* Images.xcassets */; };
 		7103C3FF1992E72900B857C0 /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103C3FE1992E72900B857C0 /* FacebookTests.swift */; };
 		7103C40A1992EA9400B857C0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103C4091992EA9400B857C0 /* FeedViewController.swift */; };
@@ -19,6 +18,7 @@
 		7103C4141992F4A900B857C0 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103C4131992F4A900B857C0 /* NotificationsViewController.swift */; };
 		7103C4161992F6A600B857C0 /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103C4151992F6A600B857C0 /* FeedDetailViewController.swift */; };
 		7103C4181992FB3200B857C0 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103C4171992FB3200B857C0 /* ComposeViewController.swift */; };
+		71A467A619B67640006F8B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7103C3EF1992E72900B857C0 /* Main.storyboard */; };
 		71B881A319998CD800E99586 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B881A219998CD800E99586 /* LogInViewController.swift */; };
 		D9BBACD919B26B22004ED39B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBACD819B26B22004ED39B /* PhotoViewController.swift */; };
 		D9BBACDC19B26E60004ED39B /* PhotoSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBACDB19B26E60004ED39B /* PhotoSegue.swift */; };
@@ -204,6 +204,7 @@
 				TargetAttributes = {
 					7103C3E51992E72900B857C0 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = YC249PY26F;
 					};
 					7103C3F71992E72900B857C0 = {
 						CreatedOnToolsVersion = 6.0;
@@ -235,7 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7103C3F11992E72900B857C0 /* Main.storyboard in Resources */,
+				71A467A619B67640006F8B08 /* Main.storyboard in Resources */,
 				7103C3F31992E72900B857C0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
